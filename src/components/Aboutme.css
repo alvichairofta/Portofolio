@@ -1,0 +1,295 @@
+.About-container {
+  display: flex;
+  padding: 2rem;
+}
+
+.Kiri {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Kiri img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.Kanan {
+  width: 36%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 0.5rem;
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: column;/* Merubah komponen kanan menjadi rata tengah */
+  margin-top: 290px;
+  
+}
+
+.Kanan h1 {
+  letter-spacing: 1.5px;
+  font-size: 35px;
+   /* Mengubah teks kanan menjadi rata tengah */
+}
+
+.Kanan p {
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #b5b5b5;
+  text-align: left;
+}
+
+.Contact-item {
+  margin-top: 20px;
+}
+
+.Contact-item a:hover .contact-icon {
+  opacity: 0.8;
+}
+
+.Contact-item .contact-icon {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  transition: opacity 0.3s;
+}
+
+.Social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: -44px;
+  margin-left: 2px;
+}
+
+.Social-links a {
+  margin: 0 1vw;
+}
+
+.Social-links a:hover {
+  opacity: 0.8;
+}
+
+.Social-links a .social-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #b5b5b5;
+}
+
+/* Media Query Mobile */
+
+@media screen and (max-width: 768px) {
+  .About-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    padding: 1rem; /* Adjust padding on mobile view */
+  }
+
+  .Kiri {
+    margin-top: 5rem;
+    margin-right: 5rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem; /* Tambahkan margin-bottom on mobile view */
+  }
+
+  .Kiri img {
+    width: 100%;
+    max-height: 300px; /* Atur max-height for image size on mobile view */
+    object-fit: cover;
+  }
+
+  .Kanan {
+    width: 100%;
+    margin-top: 2rem; /* Tambahkan margin-top on mobile view */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Rata tengah isi konten kanan */
+  }
+
+  .Kanan h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .Kanan p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .Contact-item,
+  .Social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    
+  }
+
+  .Contact-item a,
+  .Social-links a {
+    margin: 0 1rem; /* Tambahkan margin on spacing between icons */
+  }
+
+  .Contact-item .contact-icon,
+  .Social-links .social-icon {
+    width: auto;
+    height: 2.5rem;
+    color: #b5b5b5;
+  }
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.Kiri {
+  position: absolute;
+  margin-top: -240px;
+}
+
+.Kanan {
+  position: relative;
+  left: 750px;
+  width: 36%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  height: 115px;
+  margin-top: 290px;
+}
+
+.Kanan h1 {
+  font-size: 35px;
+  letter-spacing: 1.5px;
+}
+
+.Kanan p {
+  font-size: 18px;
+  margin-top: 35px;
+  color: #B5B5B5;
+}
+
+.Contact-item {
+  margin-top: 35px;
+}
+
+.Contact-item img:hover{
+  opacity: 0.8;
+
+}
+
+.Contact-item img{
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  transition: opacity 0.3s;
+}
+
+.item {
+  list-style: none;
+}
+
+.About-container {
+  margin: auto;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 0.15fr 0.15fr 0fr;
+  margin-left: 980px;
+  margin-top: 224px;
+  filter: invert(50%);
+  position: relative;
+}
+
+.whatsapp-img {
+  width: 32px;
+  height: 32px;
+}
+
+.instagram-img {
+  width: 32px;
+  height: 32px;
+}
+
+.linkedin-img {
+  width: 32px;
+  height: 32px;
+  color: #B5B5B5;
+}
+
+@media screen and (max-width: 768px) {
+  .About-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    padding: 1rem; 
+  }
+
+  .Kiri {
+    margin-top: 2rem;
+    margin-right: 5rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem; 
+  }
+
+  .Kiri img {
+    width: 100%;
+    max-height: 300px; 
+    object-fit: cover;
+  }
+
+  .Kanan {
+    width: 100%;
+    margin-top: 2rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .Kanan h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .Kanan p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .Contact-item,
+  .Social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .Contact-item a,
+  .Social-links a {
+    margin: 0 1rem; 
+  }
+
+  .Contact-item .contact-icon,
+  .Social-links .social-icon {
+    width: auto;
+    height: 2.5rem;
+    color: #b5b5b5;
+  }
+}
+
+
+ */
