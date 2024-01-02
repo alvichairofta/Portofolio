@@ -31,7 +31,6 @@
   position: absolute;
   margin-right: 59%;
   margin-left: 110px;
-  margin-top: 105px;
   padding-left: 20px;
   color: #db7212;
 }
@@ -49,8 +48,24 @@
   color: #b5b5b5;
 }
 
-.Detail img {
+.Detail button {
+  background-color: #db7212;
+  margin-top: 8px;
+  width: 160px;
+  height: 50px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
   margin-top: 30px;
+}
+
+.Detail a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.Detail button:hover{
+  opacity: 0.8;
 }
 
 .Mockup img {

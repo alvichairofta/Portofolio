@@ -24,7 +24,7 @@ export default function Skills() {
       images.forEach((image, index) => {
         setTimeout(() => {
           showAnimation(image.getAttribute("data-image"));
-        }, index * 1000); 
+        }, index * 1000);
       });
     }
   }, [animationStarted]);
