@@ -104,8 +104,8 @@
     }
   
     .Tools img {
-      margin: 15px; /* margin di mobile */
-      padding: 2px; /* padding di mobile */
+      margin: 15px; 
+      padding: 2px; 
       height: 70px;
       width: auto;
     }

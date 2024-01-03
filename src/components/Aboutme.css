@@ -94,6 +94,8 @@
     flex-direction: column;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
   }
 
   .Kiri {
@@ -109,10 +111,12 @@
   }
 
   .Kanan {
-    width: 100%;
+    width: 80%;
     margin-top: -10px; 
     display: flex;
     flex-direction: column;
+    position: static;
+    padding-left: 2rem;
   }
 
   .Kanan h1 {
