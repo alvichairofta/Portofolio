@@ -107,15 +107,17 @@
   .Kiri img {
     height: 420px;
     margin-left: 100px;
+    display: none;
   }
 
   .Kanan {
     width: 90%;
-    margin-top: -10px;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     position: static;
-    padding-left: 1.2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
   }
 
   .Kanan h1 {
