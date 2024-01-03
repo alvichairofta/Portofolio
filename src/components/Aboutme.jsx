@@ -4,7 +4,7 @@ import "./Aboutme.css";
 
 import Email from "../Assets/email.png";
 import Profile from "../Assets/profile-2.png";
-import CV from "../Assets/download-cv.png";
+
 
 export default function About() {
   const StyleColor = {
