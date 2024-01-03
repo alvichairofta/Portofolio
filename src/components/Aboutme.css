@@ -12,11 +12,10 @@
 .Kiri img {
   max-height: 100%;
   object-fit: contain;
-  
 }
 
 .Kanan {
-  width: 36%;
+  width: 37%;
   color: white;
   font-family: "Montserrat", sans-serif;
   margin-right: 5rem;
@@ -111,17 +110,17 @@
   }
 
   .Kanan {
-    width: 80%;
-    margin-top: -10px; 
+    width: 90%;
+    margin-top: -10px;
     display: flex;
     flex-direction: column;
     position: static;
-    padding-left: 2rem;
+    padding-left: 1.2rem;
   }
 
   .Kanan h1 {
     font-size: 1.8rem;
-    margin-bottom: 0.5rem;
+    letter-spacing: normal!important;
   }
 
   .Kanan p {
