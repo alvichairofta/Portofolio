@@ -82,10 +82,15 @@
 }
 
 .Detail li{
-  background-color: #9b9999;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(2.3px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   margin-right: 5px;
   border-radius: 4px;
   padding: 8px
+  
 }
 
 .Detail li:hover{
