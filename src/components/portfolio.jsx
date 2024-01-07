@@ -3,6 +3,7 @@ import { animated } from "@react-spring/web";
 import React, { useState } from "react";
 import Mock from "../Assets/mockuuups.png";
 import "./portfolio.css";
+import Arrow from "../Assets/arrow.png";
 
 export default function Portfolio() {
   return (
@@ -31,13 +32,10 @@ export default function Portfolio() {
           </button>
         </div>
         <div className="Mockup" data-aos="fade-up" data-aos-duration="500">
-          <a
-            href="https://cinemanusantara.xyz/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Mock} alt="Mockup-Matara" />
-          </a>
+          <img src={Mock} alt="Mockup-Matara" />
+          <div className="visit-web">
+            <a href="https://cinemanusantara.xyz/">Visi website</a>
+          </div>
         </div>
       </div>
     </div>

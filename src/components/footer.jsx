@@ -14,12 +14,12 @@ const Footer = () => {
   };
     return (
       <footer>
-        <div className="container">
+        <div className="container-footer">
           <div className="row">
             <div className="col-md-6">
                 <h1>Let’s make something amazing together.</h1>
                 <img src={Logo} alt="" />
-                <p>UI/UX Designer</p>
+                <p>Frontend Developer</p>
             </div>
             <div className="col-md-3">
               <ul className="footer-links">

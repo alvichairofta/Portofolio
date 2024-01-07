@@ -1,8 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100;300;400&family=Poppins:ital,wght@0,300;0,400;0,500;1,600&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: ddin;
+  src: url(/public/D-DIN.ttf);
+}
+
+@font-face {
+  font-family: ddin-bold;
+  src: url(/public/D-DIN-Bold.ttf);
+}
 
 * {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: ddin;
+  font-family: "roboto", sans-serif;
 }
 
 body {
@@ -15,13 +26,11 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
-  padding: 20px 0;
- 
+  z-index: 999; 
 }
 
 .container {
-  max-width: 968px;
+  max-width: 1240px;
   margin: 10px auto;
   display: flex;
   align-items: center;
@@ -40,5 +49,4 @@ body {
     align-items: center;
   }
 }
-
 

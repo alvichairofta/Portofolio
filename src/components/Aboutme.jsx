@@ -11,6 +11,10 @@ export default function About() {
     color: "#DB7212",
   };
 
+  const colorwhite = {
+    color: "#fff",
+  };
+
   return (
     <div className="About-container">
       <div className="Kiri">
@@ -20,8 +24,8 @@ export default function About() {
         <h1 style={StyleColor}>Frontend Developer,</h1>
         <h1>Turning your idea into cool web design.</h1>
         <p>
-          I am currently studying at Multimedia Nusantara University. I've spent
-          the last few months learning UI/UX Design. I am someone who is very
+          I am currently studying at <span><a href="https://www.umn.ac.id/"  target="_blank"  style={colorwhite}>Multimedia Nusantara University</a></span> I've spent
+          the last few months learning Frontend Developer. I am someone who is very
           interested in new things, and I always feel challenged to fill my
           youth with useful skills and experiences. My experience when running
           projects will really help me develop myself to reach my potential.
