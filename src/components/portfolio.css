@@ -5,6 +5,10 @@
   src: url(/public/D-DIN-Bold.ttf);
 }
 
+.card{
+  background-color: #343232;
+}
+
 .Mockup {
   position: relative;
   margin-left: 750px;
@@ -82,6 +86,7 @@
   width: 555px;
   height: auto;
   transition: transform 0.5s ease-out;
+  border-radius: 7px;
 }
 
 .Mockup img:hover {
