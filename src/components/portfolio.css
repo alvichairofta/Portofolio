@@ -73,6 +73,26 @@
   margin-top: 30px;
 }
 
+.Detail ul{
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.Detail li{
+  background-color: #9b9999;
+  margin-right: 5px;
+  border-radius: 4px;
+  padding: 8px
+}
+
+.Detail li:hover{
+  color: #db7212;
+  cursor: context-menu;
+}
+
 .Detail a{
   text-decoration: none;
   color: #fff;
@@ -168,6 +188,9 @@ color: #323232;
     height: 100%;
   }
 
+  .Detail ul{
+    padding-left: 1rem;
+  }
   .visit-web{
     text-align: start;
     padding-left: 1.5rem;

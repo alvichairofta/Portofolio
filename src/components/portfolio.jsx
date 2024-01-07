@@ -23,6 +23,12 @@ export default function Portfolio() {
             a project for the final exam of the semester at Multimedia Nusantara
             University which was made by a team of 4 people.
           </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>ReactJS</li>
+          </ul>
           <button>
             <a
               href="https://cinemanusantara.xyz/"
@@ -45,8 +51,17 @@ export default function Portfolio() {
           <h2>SMPN 4 KOTA TANGERANG</h2>
           <h1>School Website</h1>
           <p>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, possimus magnam, modi ducimus a odit in sit inventore quibusdam facere hic ipsum, mollitia fuga. Vel inventore at amet sit sapiente!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
+            possimus magnam, modi ducimus a odit in sit inventore quibusdam
+            facere hic ipsum, mollitia fuga. Vel inventore at amet sit sapiente!
           </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+          </ul>
           <button>
             <a
               href="https://smpn4kotatangerang.sch.id/"
@@ -69,8 +84,15 @@ export default function Portfolio() {
           <h2>DeLouvre</h2>
           <h1>Restaurant Website</h1>
           <p>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, possimus magnam, modi ducimus a odit in sit inventore quibusdam facere hic ipsum, mollitia fuga. Vel inventore at amet sit sapiente!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
+            possimus magnam, modi ducimus a odit in sit inventore quibusdam
+            facere hic ipsum, mollitia fuga. Vel inventore at amet sit sapiente!
           </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>PHP</li>
+          </ul>
           <button>
             <a
               href="https://if330-delouvre.xyz//"
@@ -93,8 +115,15 @@ export default function Portfolio() {
           <h2>TO DO LIST</h2>
           <h1>TodoList Website</h1>
           <p>
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, possimus magnam, modi ducimus a odit in sit inventore quibusdam facere hic ipsum, mollitia fuga. Vel inventore at amet sit sapiente!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque,
+            possimus magnam, modi ducimus a odit in sit inventore quibusdam
+            facere hic ipsum, mollitia fuga. Vel inventore at amet sit sapiente!
           </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>PHP</li>
+          </ul>
           <button>
             <a
               href="https://if330-todolist.xyz/"
