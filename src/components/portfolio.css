@@ -80,7 +80,7 @@
 
 .Mockup img {
   width: 555px;
-  height: 357.616px;
+  height: auto;
   transition: transform 0.5s ease-out;
 }
 
