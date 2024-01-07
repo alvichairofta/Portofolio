@@ -28,6 +28,7 @@ export default function Portfolio() {
             <li>CSS</li>
             <li>Javascript</li>
             <li>ReactJS</li>
+            <li>API</li>
           </ul>
           <button>
             <a
