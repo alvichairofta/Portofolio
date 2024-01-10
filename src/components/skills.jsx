@@ -8,30 +8,7 @@ import Rct from "../Assets/react.png";
 import "./skills.css";
 
 export default function Skills() {
-  const [selectedImage, setSelectedImage] = useState(null);
-  const [animationStarted, setAnimationStarted] = useState(false);
-
-  function showAnimation(imageName) {
-    setSelectedImage(imageName);
-    setTimeout(() => {
-      setSelectedImage(null);
-    }, 500);
-  }
-
-  useEffect(() => {
-    if (animationStarted) {
-      const images = document.querySelectorAll(".Tools img");
-      images.forEach((image, index) => {
-        setTimeout(() => {
-          showAnimation(image.getAttribute("data-image"));
-        }, index * 1000);
-      });
-    }
-  }, [animationStarted]);
-
-  function handleImageClick() {
-    setAnimationStarted(true);
-  }
+  const [selectedImage] = useState(null);
 
   return (
     <div className="Skill-container" id="skills">
@@ -46,7 +23,7 @@ export default function Skills() {
           }
           src={Figma}
           data-image="Figma"
-          onClick={handleImageClick}
+          // onClick={handleImageClick}
         />
         <img
           className={
@@ -54,31 +31,31 @@ export default function Skills() {
           }
           src={Canva}
           data-image="Canva"
-          onClick={handleImageClick}
+          // onClick={handleImageClick}
         />
         <img
           className={selectedImage === "Html" ? "Html clicked show" : "Html"}
           src={Html}
           data-image="Html"
-          onClick={handleImageClick}
+          // onClick={handleImageClick}
         />
         <img
           className={selectedImage === "Css" ? "Css clicked show" : "Css"}
           src={Css}
           data-image="Css"
-          onClick={handleImageClick}
+          // onClick={handleImageClick}
         />
         <img
           className={selectedImage === "Js" ? "Js clicked show" : "Js"}
           src={Js}
           data-image="Js"
-          onClick={handleImageClick}
+          // onClick={handleImageClick}
         />
         <img
           className={selectedImage === "Rct" ? "Rct clicked show" : "Rct"}
           src={Rct}
           data-image="Rct"
-          onClick={handleImageClick}
+          // onClick={handleImageClick}
         />
       </div>
     </div>

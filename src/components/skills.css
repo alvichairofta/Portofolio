@@ -30,7 +30,7 @@
   }
 
   .Tools img {
-    filter: grayscale(70%);
+    filter: grayscale(97%);
     transition: filter 0.3s ease-in-out;
   }
   
@@ -117,16 +117,15 @@
       width: auto;
     }
   }
-  
-  /* default state aos */
+/*   
   [data-aos] {
     opacity: 0;
     visibility: hidden;
     transition-property: opacity, visibility;
   }
   
-  /* on-scroll aos */
+
   [data-aos].aos-animate {
     opacity: 1;
     visibility: visible;
-  }
+  } */
